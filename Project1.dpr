@@ -6,7 +6,8 @@ uses
   csTasit in 'csTasit.pas',
   csOtomobil in 'csOtomobil.pas',
   csBisiklet in 'csBisiklet.pas',
-  csabstraction in 'csabstraction.pas';
+  csabstraction in 'csabstraction.pas',
+  csGetterSetter in 'csGetterSetter.pas';
 
 {$R *.res}
 

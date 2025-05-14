@@ -131,6 +131,7 @@
         <DCCReference Include="csOtomobil.pas"/>
         <DCCReference Include="csBisiklet.pas"/>
         <DCCReference Include="csabstraction.pas"/>
+        <DCCReference Include="csGetterSetter.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

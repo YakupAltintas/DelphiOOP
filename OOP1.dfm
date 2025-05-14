@@ -60,4 +60,13 @@ object Form1: TForm1
     TabOrder = 3
     OnClick = btnPolimorphizmClick
   end
+  object btnGetSet: TButton
+    Left = 288
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = 'get set'
+    TabOrder = 4
+    OnClick = btnGetSetClick
+  end
 end
