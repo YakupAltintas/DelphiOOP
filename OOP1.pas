@@ -14,9 +14,11 @@ type
     btnOtomobil: TButton;
     btnBisiklet: TButton;
     Label1: TLabel;
+    btnPolimorphizm: TButton;
     procedure btnTasitClick(Sender: TObject);
     procedure btnBisikletClick(Sender: TObject);
     procedure btnOtomobilClick(Sender: TObject);
+    procedure btnPolimorphizmClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,6 +31,8 @@ var
   otomobil: TOtomobil;
   tasit: TTasit;
   bisiklet: TBisiklet;
+
+  PoliMorpTasit : TTasit;
 
 implementation
 
@@ -52,6 +56,18 @@ begin
     finally
       otomobil.Free;
     end;
+end;
+
+procedure TForm1.btnPolimorphizmClick(Sender: TObject);
+begin
+
+      //POLIMORPHIZM ornegi. tasit nesnesinden olusuturulan nesneyi bisiklet turunden baslattik ve bisiklet gibi davrandi
+      PoliMorpTasit := TBisiklet.Create;
+      try
+        PoliMorpTasit.hareketEt;
+      finally
+        PoliMorpTasit.Free;
+      end;
 end;
 
 procedure TForm1.btnTasitClick(Sender: TObject);

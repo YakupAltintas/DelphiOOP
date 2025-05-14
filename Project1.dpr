@@ -5,7 +5,8 @@ uses
   OOP1 in 'OOP1.pas' {Form1},
   csTasit in 'csTasit.pas',
   csOtomobil in 'csOtomobil.pas',
-  csBisiklet in 'csBisiklet.pas';
+  csBisiklet in 'csBisiklet.pas',
+  csabstraction in 'csabstraction.pas';
 
 {$R *.res}
 

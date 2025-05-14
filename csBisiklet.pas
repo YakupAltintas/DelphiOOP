@@ -17,7 +17,7 @@ implementation
 procedure TBisiklet.hareketEt;
 begin
   ShowMessage('bisiklet hareket et fonksiyonu');
-  inherited;// inherited yazarsak miras alınan sinifin icindekiler de bu sayede calisir.
+  // inherited;  // inherited yazarsak miras alınan sinifin icindekiler de bu sayede calisir.
 
 end;
 

@@ -51,4 +51,13 @@ object Form1: TForm1
     TabOrder = 2
     OnClick = btnBisikletClick
   end
+  object btnPolimorphizm: TButton
+    Left = 144
+    Top = 264
+    Width = 91
+    Height = 33
+    Caption = 'polimorphizm'
+    TabOrder = 3
+    OnClick = btnPolimorphizmClick
+  end
 end
