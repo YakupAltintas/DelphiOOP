@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 0
   Caption = 'Form1'
   ClientHeight = 412
-  ClientWidth = 888
+  ClientWidth = 453
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -12,9 +12,9 @@ object Form1: TForm1
   Font.Style = []
   TextHeight = 15
   object Label1: TLabel
-    Left = 64
-    Top = 114
-    Width = 79
+    Left = 88
+    Top = 130
+    Width = 193
     Height = 37
     Caption = 'Label1'
     Font.Charset = DEFAULT_CHARSET
@@ -25,8 +25,8 @@ object Form1: TForm1
     ParentFont = False
   end
   object btnTasit: TButton
-    Left = 200
-    Top = 72
+    Left = 64
+    Top = 184
     Width = 75
     Height = 25
     Caption = 'Tasit'
@@ -34,8 +34,8 @@ object Form1: TForm1
     OnClick = btnTasitClick
   end
   object btnOtomobil: TButton
-    Left = 200
-    Top = 128
+    Left = 160
+    Top = 184
     Width = 75
     Height = 25
     Caption = 'Otomobil'
@@ -43,7 +43,7 @@ object Form1: TForm1
     OnClick = btnOtomobilClick
   end
   object btnBisiklet: TButton
-    Left = 200
+    Left = 256
     Top = 184
     Width = 75
     Height = 25

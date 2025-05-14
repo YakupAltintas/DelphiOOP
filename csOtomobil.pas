@@ -10,7 +10,7 @@ type
     kapiSayisi: integer;
     procedure bagajAc;
 
-    procedure hareketEt;override;//fonksiyon bos ise miras aldigi sinifin icindekini calistirir
+    procedure hareketEt;override; //fonksiyon bos ise miras aldigi sinifin icindekini calistirir
 
   end;
 
